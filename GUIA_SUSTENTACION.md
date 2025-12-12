@@ -362,5 +362,21 @@ python test_accuracy.py
 
 ---
 
+```
+mlp_proyecto_final/
+├── mlp_from_scratch/          # Núcleo de la red neuronal
+│   ├── mlp.py                # Red neuronal principal (MLP)
+│   ├── matrix.py             # Operaciones matriciales
+│   ├── activations.py        # Funciones de activación
+│   ├── losses.py             # Funciones de pérdida
+│   └── utils.py              # Utilidades (verificación de gradientes)
+├── train_mlp.py              # Script para entrenar la red
+├── example_usage.py          # Ejemplo de uso
+└── run_tests.py              # Tests del proyecto
+```
+
+---
+
+
 **¡Éxito en tu sustentación! 🚀**
 
